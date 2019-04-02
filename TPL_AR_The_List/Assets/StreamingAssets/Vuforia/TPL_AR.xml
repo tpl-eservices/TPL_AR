@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="dry_book_cover" size="0.200000 0.301887" />
+    <ImageTarget name="nailbiters_video_trigger" size="0.200000 0.154428" />
+    <ImageTarget name="poster_book_trigger" size="1.000000 0.618446" />
+    <ImageTarget name="list_poster_video_trigger" size="1.000000 0.566491" />
+    <ImageTarget name="speaker_icon" size="0.200000 0.199601" />
+    <ImageTarget name="brain_icon" size="0.200000 0.199601" />
+    <ImageTarget name="bomb_icon" size="0.200000 0.199601" />
+    <ImageTarget name="explosion_icon" size="0.200000 0.199601" />
+    <ImageTarget name="sword_icon" size="0.200000 0.200000" />
+    <ImageTarget name="planet_icon" size="0.200000 0.199601" />
     <ImageTarget name="page4" size="0.140000 0.163093" />
     <ImageTarget name="page2" size="0.140000 0.208603" />
     <ImageTarget name="page1" size="0.140000 0.177059" />
