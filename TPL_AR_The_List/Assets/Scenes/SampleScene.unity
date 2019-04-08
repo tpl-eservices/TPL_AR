@@ -1838,7 +1838,7 @@ GameObject:
   - component: {fileID: 532745722}
   - component: {fileID: 532745721}
   m_Layer: 0
-  m_Name: ImageTarget
+  m_Name: Fantasy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3662,7 +3662,7 @@ GameObject:
   - component: {fileID: 1006216563}
   - component: {fileID: 1006216569}
   m_Layer: 0
-  m_Name: ImageTarget
+  m_Name: Headspace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4866,7 +4866,7 @@ GameObject:
   - component: {fileID: 1304883404}
   - component: {fileID: 1304883410}
   m_Layer: 0
-  m_Name: ImageTarget
+  m_Name: Nailbiters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5112,7 +5112,7 @@ MonoBehaviour:
   mAspectRatio: 0.730555
   mImageTargetType: 0
   mWidth: 0.2
-  mHeight: 0.154733
+  mHeight: 0.146111
 --- !u!4 &1306286881
 Transform:
   m_ObjectHideFlags: 0
@@ -7004,7 +7004,7 @@ GameObject:
   - component: {fileID: 1945573604}
   - component: {fileID: 1945573603}
   m_Layer: 0
-  m_Name: ImageTarget
+  m_Name: List Poster Large
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7171,7 +7171,7 @@ GameObject:
   - component: {fileID: 1968862742}
   - component: {fileID: 1968862741}
   m_Layer: 0
-  m_Name: ImageTarget
+  m_Name: List Poster Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7310,7 +7310,7 @@ GameObject:
   - component: {fileID: 1974838941}
   - component: {fileID: 1974838947}
   m_Layer: 0
-  m_Name: ImageTarget
+  m_Name: Speaker Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
