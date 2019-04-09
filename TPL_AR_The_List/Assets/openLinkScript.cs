@@ -24,7 +24,7 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
 
     float currCountdownValue;
     bool startTimer;
-    public IEnumerator StartCountdown(float countdownValue = 3)
+    public IEnumerator StartCountdown(string name, float countdownValue = 2)
     {
         currCountdownValue = countdownValue;
         while (currCountdownValue > 0 && startTimer == true)
@@ -36,7 +36,10 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         }
         if (startTimer)
         {
-            Application.OpenURL("https://account.torontopubliclibrary.ca");
+            if (name == "library_card")
+            {
+                Application.OpenURL("https://account.torontopubliclibrary.ca");
+            }
         }
     }
 
@@ -122,7 +125,8 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         Debug.Log("On tracking found starting...");
         Debug.Log("***************************");
         startTimer = true;
-        StartCoroutine(StartCountdown());
+        StartCoroutine(StartCountdown(mTrackableBehaviour.TrackableName, 2));
+        
         
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
