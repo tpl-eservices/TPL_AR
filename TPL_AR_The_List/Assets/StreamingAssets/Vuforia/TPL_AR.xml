@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="nailbiters_books" size="0.200000 0.179333" />
+    <ImageTarget name="poetry_books" size="0.200000 0.165162" />
+    <ImageTarget name="headspace_books" size="0.200000 0.170732" />
+    <ImageTarget name="fantasy_books" size="0.200000 0.164825" />
+    <ImageTarget name="true_story_books" size="0.200000 0.171889" />
+    <ImageTarget name="own_voices_books" size="0.200000 0.176242" />
+    <ImageTarget name="science_fiction_books" size="0.200000 0.173925" />
+    <ImageTarget name="resist_books" size="0.200000 0.172803" />
+    <ImageTarget name="comics_books" size="0.200000 0.162916" />
+    <ImageTarget name="turning_points_books" size="0.200000 0.173688" />
     <ImageTarget name="fantasy_trigger" size="0.200000 0.151959" />
     <ImageTarget name="true_story_trigger" size="0.200000 0.147831" />
     <ImageTarget name="own_voices_trigger" size="0.200000 0.145537" />
