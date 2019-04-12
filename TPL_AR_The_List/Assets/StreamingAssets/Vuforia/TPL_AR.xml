@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="the_list_front_cover" size="0.200000 0.214145" />
     <ImageTarget name="fire_back_cover" size="0.200000 0.256509" />
     <ImageTarget name="get_published" size="0.200000 0.286788" />
     <ImageTarget name="people_sitting" size="0.200000 0.171984" />
