@@ -1980,7 +1980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317861710}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.008000061, y: 0.001, z: -0.009}
+  m_LocalPosition: {x: 0.008000061, y: 0.001, z: -0.009000003}
   m_LocalScale: {x: 1, y: 1, z: 0.65}
   m_Children:
   - {fileID: 271519055}
@@ -2072,7 +2072,7 @@ MonoBehaviour:
     e20: 0
     e21: 0
     e22: 0.051999997
-    e23: -0.00071999995
+    e23: -0.00072000024
     e30: 0
     e31: 0
     e32: 0
@@ -10373,9 +10373,7 @@ TextMesh:
   m_GameObject: {fileID: 1319530095}
   m_Text: 'HOLD TO
 
-    OPEN
-
-    ACCOUNT'
+    OPEN'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -12059,7 +12057,7 @@ MonoBehaviour:
   mAspectRatio: 0.63414496
   mImageTargetType: 0
   mWidth: 0.2
-  mHeight: 0.134363
+  mHeight: 0.126829
 --- !u!4 &1437630055
 Transform:
   m_ObjectHideFlags: 0
@@ -14791,7 +14789,7 @@ MonoBehaviour:
   mAspectRatio: 0.671815
   mImageTargetType: 0
   mWidth: 0.2
-  mHeight: 0.125984
+  mHeight: 0.134363
 --- !u!4 &1852036710
 Transform:
   m_ObjectHideFlags: 0
@@ -15742,7 +15740,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965090999}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.428, y: 0.043, z: 0.295}
+  m_LocalPosition: {x: -0.456, y: 0.043, z: 0.295}
   m_LocalScale: {x: 0.0036840914, y: 0.0036840914, z: 0.0036840914}
   m_Children: []
   m_Father: {fileID: 317861711}
