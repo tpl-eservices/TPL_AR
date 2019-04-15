@@ -37,15 +37,6 @@
     <ImageTarget name="explosion_icon" size="0.200000 0.199601" />
     <ImageTarget name="sword_icon" size="0.200000 0.200000" />
     <ImageTarget name="planet_icon" size="0.200000 0.199601" />
-    <ImageTarget name="page4" size="0.140000 0.163093" />
-    <ImageTarget name="page2" size="0.140000 0.208603" />
-    <ImageTarget name="page1" size="0.140000 0.177059" />
-    <ImageTarget name="batgirl_review" size="0.140000 0.212036" />
-    <ImageTarget name="telegraph_avenue" size="0.600000 0.904839" />
-    <ImageTarget name="kat_and_meg" size="0.140000 0.181493" />
-    <ImageTarget name="thelist" size="0.140000 0.145843" />
-    <ImageTarget name="new-new-library-card" size="0.100000 0.064500" />
-    <ImageTarget name="new_library_card" size="0.050000 0.032783" />
     <ImageTarget name="library_card" size="0.080000 0.051260" />
   </Tracking>
 </QCARConfig>
