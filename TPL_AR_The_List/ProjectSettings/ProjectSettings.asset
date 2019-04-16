@@ -149,7 +149,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.TPL.TPL_AR
-    iOS: com.TPL.TPL_AR
+    iOS: com.TPL.TPL-AR
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
