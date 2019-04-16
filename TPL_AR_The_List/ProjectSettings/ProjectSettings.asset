@@ -149,6 +149,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.TPL.TPL_AR
+    iOS: com.TPL.TPL_AR
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -505,6 +506,8 @@ PlayerSettings:
   - m_BuildTarget: Standalone
     m_Enabled: 1
   - m_BuildTarget: Android
+    m_Enabled: 1
+  - m_BuildTarget: iOS
     m_Enabled: 1
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
