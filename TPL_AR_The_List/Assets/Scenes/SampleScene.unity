@@ -1801,6 +1801,34 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!21 &247859922
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'get_publishedMaterial
+
+    57584'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3c8ee348b9624134a9eaeaefbb240bb8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &271519054
 GameObject:
   m_ObjectHideFlags: 0
@@ -6109,7 +6137,7 @@ MonoBehaviour:
   mAspectRatio: 0.81458
   mImageTargetType: 0
   mWidth: 0.2
-  mHeight: 0.06902
+  mHeight: 0.162916
 --- !u!4 &739345640
 Transform:
   m_ObjectHideFlags: 0
@@ -11770,7 +11798,7 @@ VideoPlayer:
   - {fileID: 0}
   m_DirectAudioVolumes:
   - 1
-  m_Url: https://tpl.razuna.com/assets/3434/27B5E800556546B987FDF5B9F828F493/vid/6E3D9AD843D7412CBFECA2309D2641E2/Emil_Reads_March_Break__Young_Voices_Magazine.mp4
+  m_Url: https://tpl.razuna.com/assets/3434/06A626C2AA8C45C9968C06AEF338408D/vid/021F1DC5AEFE48D2BF98AC90FCCEB525/YOUNG_VOICES_Emil_Reads_March_Break_cc_app.mp4
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
@@ -12257,7 +12285,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1935585685}
+  - {fileID: 247859922}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13549,7 +13577,7 @@ MonoBehaviour:
   mAspectRatio: 0.86844
   mImageTargetType: 0
   mWidth: 0.2
-  mHeight: 0.080452
+  mHeight: 0.173688
 --- !u!4 &1646081502
 Transform:
   m_ObjectHideFlags: 0
@@ -14721,34 +14749,6 @@ Material:
     m_TexEnvs:
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7ff77ab603e749aa8e194a8dc2b0c86a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
---- !u!21 &1935585685
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'get_publishedMaterial
-
-    12068'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 3c8ee348b9624134a9eaeaefbb240bb8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
