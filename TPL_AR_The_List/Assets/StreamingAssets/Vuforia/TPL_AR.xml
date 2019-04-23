@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="microphone_full_page" size="0.200000 0.240918" />
     <ImageTarget name="comics_books_cropped" size="0.200000 0.069020" />
     <ImageTarget name="fantasy_books_cropped" size="0.200000 0.074312" />
     <ImageTarget name="headspace_books_cropped" size="0.200000 0.078638" />
