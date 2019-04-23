@@ -89,7 +89,7 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
 
     public void EndCountdown()
     {
-        currCountdownValue = 3;
+        currCountdownValue = 5;
         startTimer = false;
     }
 
