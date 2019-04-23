@@ -17,21 +17,38 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         // Get the Vuforia StateManager
         StateManager sm = TrackerManager.Instance.GetStateManager ();
 
+        IList<TrackableBehaviour> activeTrackablesList = (IList<TrackableBehaviour>)sm.GetActiveTrackableBehaviours();
+        Debug.Log("Number of active trackables:");
+        Debug.Log(activeTrackablesList.Count);
+        if (activeTrackablesList.Count >= 2)
+        {
+            startTimer = false;
+        }
+        else
+        {
+            startTimer = true;
+        }
+
         // Query the StateManager to retrieve the list of
         // currently 'active' trackables 
         //(i.e. the ones currently being tracked by Vuforia)
-        IEnumerable<TrackableBehaviour> activeTrackables = sm.GetActiveTrackableBehaviours ();
-
-       // Iterate through the list of active trackables
+        /*
+        //Iterate through the list of active trackables
         Debug.Log ("List of trackables currently active (tracked): ");
-
+        IEnumerable<TrackableBehaviour> activeTrackables = sm.GetActiveTrackableBehaviours ();
         foreach (TrackableBehaviour tb in activeTrackables) {
-            if(videoTargetsArray.Any(tb.TrackableName.Contains))
+            Debug.Log("Target found!");
+            Debug.Log(tb.TrackableName);
+            if (videoTargetsArray.Any(tb.TrackableName.Contains))
             {
                 Debug.Log("Non-link target found!");
                 startTimer = false;
             }
-        }
+            else
+            {
+                Debug.Log("Target not found...");
+            }
+        }*/
     }
     
     public void OnButtonPressed(VirtualButtonBehaviour vb)
@@ -190,7 +207,6 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         Debug.Log("***************************");
         startTimer = true;
         StartCoroutine(StartCountdown(mTrackableBehaviour.TrackableName, 2));
-        
         
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
