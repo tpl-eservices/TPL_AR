@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Vuforia;
 
@@ -7,14 +8,35 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
 {
     VirtualButtonBehaviour[] virtualButtonBehaviours;
     string vbName;
+    float currCountdownValue;
+    bool startTimer;
+    string[] videoTargetsArray = new string[] { "nailbiters_video_trigger", "headspace_trigger", "fantasy_trigger", "true_story_trigger", "own_voices_trigger", "science_fiction_trigger", "resist_trigger", "comics_trigger", "turning_points_trigger", "poetry_trigger"};
+
+    // Update is called once per frame
+    void Update () {
+        // Get the Vuforia StateManager
+        StateManager sm = TrackerManager.Instance.GetStateManager ();
+
+        // Query the StateManager to retrieve the list of
+        // currently 'active' trackables 
+        //(i.e. the ones currently being tracked by Vuforia)
+        IEnumerable<TrackableBehaviour> activeTrackables = sm.GetActiveTrackableBehaviours ();
+
+       // Iterate through the list of active trackables
+        Debug.Log ("List of trackables currently active (tracked): ");
+
+        foreach (TrackableBehaviour tb in activeTrackables) {
+            if(videoTargetsArray.Any(tb.TrackableName.Contains))
+            {
+                Debug.Log("Non-link target found!");
+                startTimer = false;
+            }
+        }
+    }
     
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        vbName = vb.VirtualButtonName;
-        if (vbName == "AccountBtn")
-        {
-            //Application.OpenURL("https://account.torontopubliclibrary.ca");
-        }
+
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
@@ -22,8 +44,6 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
 
     }
 
-    float currCountdownValue;
-    bool startTimer;
     public IEnumerator StartCountdown(string name, float countdownValue = 2)
     {
         currCountdownValue = countdownValue;
