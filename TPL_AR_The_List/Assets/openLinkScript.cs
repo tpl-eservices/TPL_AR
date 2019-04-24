@@ -10,52 +10,6 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
     string vbName;
     float currCountdownValue;
     bool startTimer;
-    bool multipleTargetsFound;
-    bool canTriggerPostMultipleTargetsLink;
-    string[] videoTargetsArray = new string[] { "nailbiters_video_trigger", "headspace_trigger", "fantasy_trigger", "true_story_trigger", "own_voices_trigger", "science_fiction_trigger", "resist_trigger", "comics_trigger", "turning_points_trigger", "poetry_trigger"};
-    string[] linkTargetsArray = new string[] { "nailbiters_books", "headspace_books", "fantasy_books", "true_story_books", "own_voices_books", "science_fiction_books", "resist_books", "comics_books", "turning_points_books", "poetry_books" };
-
-    // Update is called once per frame
-    void Update () {
-        // Get the Vuforia StateManager
-        StateManager sm = TrackerManager.Instance.GetStateManager ();
-
-        IList<TrackableBehaviour> activeTrackablesList = (IList<TrackableBehaviour>)sm.GetActiveTrackableBehaviours();
-        //Debug.Log("Number of active trackables:");
-        //Debug.Log(activeTrackablesList.Count);
-        if (activeTrackablesList.Count >= 2)
-        {
-            startTimer = false;
-            multipleTargetsFound = true;
-            canTriggerPostMultipleTargetsLink = true;
-        }
-        else
-        {
-            multipleTargetsFound = false;
-        }
-
-        // Query the StateManager to retrieve the list of
-        // currently 'active' trackables 
-        //(i.e. the ones currently being tracked by Vuforia)
-        //Iterate through the list of active trackables
-        //Debug.Log ("List of trackables currently active (tracked): ");
-        IEnumerable<TrackableBehaviour> activeTrackables = sm.GetActiveTrackableBehaviours ();
-        foreach (TrackableBehaviour tb in activeTrackables) {
-            //Debug.Log("Target found!");
-            //Debug.Log(tb.TrackableName);
-            if (linkTargetsArray.Any(tb.TrackableName.Contains) && multipleTargetsFound == false)
-            {
-                //Debug.Log("Link target found!");
-                //start countdown timer when only the link target is visible again
-                startTimer = true;
-                if (canTriggerPostMultipleTargetsLink)
-                {
-                    TriggerLinkOpening(tb.TrackableName);
-                }
-                canTriggerPostMultipleTargetsLink = false;
-            }
-        }
-    }
     
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
@@ -81,6 +35,9 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         {
             switch (name)
             {
+                case "fire_back_cover":
+                    Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?category=all");
+                    break;
                 case "library_card":
                     Application.OpenURL("https://account.torontopubliclibrary.ca");
                     break;
@@ -239,7 +196,6 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         Debug.Log("*********************");
         EndCountdown();
 
-
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
@@ -255,12 +211,6 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         // Disable canvas':
         foreach (var component in canvasComponents)
             component.enabled = false;
-    }
-
-    protected virtual void TriggerLinkOpening(string name)
-    {
-        //StartCoroutine(StartCountdown(name, 3));
-        OnTrackingLost();
     }
 
     #endregion // PROTECTED_METHODS
