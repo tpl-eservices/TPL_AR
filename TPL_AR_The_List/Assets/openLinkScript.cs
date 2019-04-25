@@ -36,7 +36,7 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
             switch (name)
             {
                 case "fire_back_cover":
-                    Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?category=all");
+                    Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?year=2019#list-container");
                     break;
                 case "library_card":
                     Application.OpenURL("https://account.torontopubliclibrary.ca");
