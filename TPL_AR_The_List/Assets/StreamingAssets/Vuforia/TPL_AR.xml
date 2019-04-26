@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="adult_library_card_1_crop" size="0.200000 0.093504" />
+    <ImageTarget name="adult_library_card_2_crop" size="0.200000 0.090734" />
     <ImageTarget name="microphone_full_page" size="0.200000 0.240918" />
-    <ImageTarget name="comics_books_cropped" size="0.200000 0.069020" />
-    <ImageTarget name="fantasy_books_cropped" size="0.200000 0.074312" />
-    <ImageTarget name="headspace_books_cropped" size="0.200000 0.078638" />
-    <ImageTarget name="nailbiters_books_cropped" size="0.200000 0.084020" />
-    <ImageTarget name="own_voices_books_cropped" size="0.200000 0.080534" />
-    <ImageTarget name="poetry_books_cropped" size="0.200000 0.074286" />
-    <ImageTarget name="resist_books_cropped" size="0.200000 0.081173" />
-    <ImageTarget name="science_fiction_books_cropped" size="0.200000 0.078631" />
-    <ImageTarget name="true_story_books_cropped" size="0.200000 0.078590" />
-    <ImageTarget name="turning_points_books_cropped" size="0.200000 0.080452" />
     <ImageTarget name="the_list_front_cover" size="0.200000 0.249306" />
     <ImageTarget name="adult_library_card_3" size="0.200000 0.126829" />
     <ImageTarget name="adult_library_card_2" size="0.200000 0.134363" />
@@ -42,12 +34,6 @@
     <ImageTarget name="nailbiters_video_trigger" size="0.200000 0.154428" />
     <ImageTarget name="poster_book_trigger" size="1.000000 0.618446" />
     <ImageTarget name="list_poster_video_trigger" size="1.000000 0.566491" />
-    <ImageTarget name="speaker_icon" size="0.200000 0.199601" />
-    <ImageTarget name="brain_icon" size="0.200000 0.199601" />
-    <ImageTarget name="bomb_icon" size="0.200000 0.199601" />
-    <ImageTarget name="explosion_icon" size="0.200000 0.199601" />
-    <ImageTarget name="sword_icon" size="0.200000 0.200000" />
-    <ImageTarget name="planet_icon" size="0.200000 0.199601" />
     <ImageTarget name="library_card" size="0.080000 0.051260" />
   </Tracking>
 </QCARConfig>
