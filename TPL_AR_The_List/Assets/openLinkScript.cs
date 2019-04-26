@@ -89,7 +89,7 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
 
     public void EndCountdown()
     {
-        currCountdownValue = 3;
+        currCountdownValue = 4;
         startTimer = false;
     }
 
@@ -169,7 +169,7 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
         Debug.Log("On tracking found starting...");
         Debug.Log("***************************");
         startTimer = true;
-        StartCoroutine(StartCountdown(mTrackableBehaviour.TrackableName, 2));
+        StartCoroutine(StartCountdown(mTrackableBehaviour.TrackableName, 4));
         
         var rendererComponents = GetComponentsInChildren<Renderer>(true);
         var colliderComponents = GetComponentsInChildren<Collider>(true);
