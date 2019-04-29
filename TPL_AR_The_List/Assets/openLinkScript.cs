@@ -50,6 +50,15 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
                 case "adult_library_card_3":
                     Application.OpenURL("https://account.torontopubliclibrary.ca");
                     break;
+                case "adult_library_card_1_crop":
+                    Application.OpenURL("https://account.torontopubliclibrary.ca");
+                    break;
+                case "adult_library_card_2_crop":
+                    Application.OpenURL("https://account.torontopubliclibrary.ca");
+                    break;
+                case "adult_library_card_3_crop":
+                    Application.OpenURL("https://account.torontopubliclibrary.ca");
+                    break;
                 case "nailbiters_books":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?category=nailbiters");
                     break;
