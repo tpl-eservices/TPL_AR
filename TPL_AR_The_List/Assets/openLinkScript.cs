@@ -38,7 +38,7 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
                 case "fire_back_cover":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?year=2019#list-container");
                     break;
-                case "library_card":
+                /*case "library_card":
                     Application.OpenURL("https://account.torontopubliclibrary.ca");
                     break;
                 case "adult_library_card_1":
@@ -58,7 +58,7 @@ public class openLinkScript : MonoBehaviour, ITrackableEventHandler, IVirtualBut
                     break;
                 case "adult_library_card_3_crop":
                     Application.OpenURL("https://account.torontopubliclibrary.ca");
-                    break;
+                    break;*/
                 case "nailbiters_books":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?category=nailbiters");
                     break;
