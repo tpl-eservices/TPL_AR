@@ -11,16 +11,16 @@ public class libraryCardScript : MonoBehaviour
         Application.OpenURL("https://account.torontopubliclibrary.ca");
         switch (name)
             {
-                case "Account Btn":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
-                    break;
-                case "Programs Btn":
-                    Application.OpenURL("https://www.torontopubliclibrary.ca/programs-and-classes/");
-                    break;
-                case "Home Btn":
+                case "homeBtnIconTrigger":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/");
                     break;
-                case "Branches Btn":
+                case "accountBtnIconTrigger":
+                    Application.OpenURL("https://account.torontopubliclibrary.ca");
+                    break;
+                case "programsBtnIconTrigger":
+                    Application.OpenURL("https://www.torontopubliclibrary.ca/programs-and-classes/");
+                    break;
+                case "branchesBtnIconTrigger":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/branches/");
                     break;
                 default:
