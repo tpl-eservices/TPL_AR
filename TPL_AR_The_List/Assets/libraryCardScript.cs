@@ -8,8 +8,6 @@ public class libraryCardScript : MonoBehaviour
     public void openLink()
     {
         string name = EventSystem.current.currentSelectedGameObject.name;
-        Debug.Log("Opening account...");
-        Debug.Log(name);
         Application.OpenURL("https://account.torontopubliclibrary.ca");
         switch (name)
             {
@@ -19,27 +17,12 @@ public class libraryCardScript : MonoBehaviour
                 case "Programs Btn":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/programs-and-classes/");
                     break;
-                /*case "library_card":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
+                case "Home Btn":
+                    Application.OpenURL("https://www.torontopubliclibrary.ca/");
                     break;
-                case "adult_library_card_1":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
+                case "Branches Btn":
+                    Application.OpenURL("https://www.torontopubliclibrary.ca/branches/");
                     break;
-                case "adult_library_card_2":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
-                    break;
-                case "adult_library_card_3":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
-                    break;
-                case "adult_library_card_1_crop":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
-                    break;
-                case "adult_library_card_2_crop":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
-                    break;
-                case "adult_library_card_3_crop":
-                    Application.OpenURL("https://account.torontopubliclibrary.ca");
-                    break;*/
                 default:
                     Debug.Log("No link source detected...");
                     break;
