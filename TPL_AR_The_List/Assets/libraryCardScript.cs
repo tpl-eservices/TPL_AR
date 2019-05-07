@@ -8,7 +8,6 @@ public class libraryCardScript : MonoBehaviour
     public void openLink()
     {
         string name = EventSystem.current.currentSelectedGameObject.name;
-        Application.OpenURL("https://account.torontopubliclibrary.ca");
         switch (name)
             {
                 case "homeBtnIconTrigger":
