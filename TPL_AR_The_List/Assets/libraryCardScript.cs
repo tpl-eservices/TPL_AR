@@ -22,6 +22,9 @@ public class libraryCardScript : MonoBehaviour
                 case "branchesBtnIconTrigger":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/branches/");
                     break;
+                case "listBtnIconTrigger":
+                    Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?year=2019#list-container");
+                    break;
                 default:
                     Debug.Log("No link source detected...");
                     break;
