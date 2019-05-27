@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="adult_library_card_1_crop" size="0.200000 0.093504" />
-    <ImageTarget name="adult_library_card_2_crop" size="0.200000 0.090734" />
+    <ImageTarget name="amazing_stories_july_cover" size="0.200000 0.273224" />
+    <ImageTarget name="amazing_stories_december_cover" size="0.200000 0.291262" />
+    <ImageTarget name="fromtheearthtothemoon" size="0.200000 0.157742" />
+    <ImageTarget name="metropolis_poster" size="0.200000 0.297952" />
     <ImageTarget name="microphone_full_page" size="0.200000 0.240918" />
     <ImageTarget name="the_list_front_cover" size="0.200000 0.249306" />
     <ImageTarget name="adult_library_card_3" size="0.200000 0.126829" />
