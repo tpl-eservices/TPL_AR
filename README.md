@@ -9,6 +9,8 @@ Once you clone this repo, you will be able to open this folder directly into Uni
 ## Development:
 The app was built in Unity and uses a plugin called Vuforia which allows for images to be recognized as targets which then trigger events, such as playing video clips, animating 3D models etc.
 
+For TPL's the List, you can find the project under the folder Assets --> Scenes --> SampleScene
+
 The following are some tutorials you can follow to aid in your development:
 
 https://www.youtube.com/watch?v=MtiUx_szKbI    
