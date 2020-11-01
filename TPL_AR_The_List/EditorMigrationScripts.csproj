@@ -262,11 +262,14 @@
     <Reference Include="UnityEditor.Android.Extensions">
       <HintPath>/Volumes/Mehrad 1/Unity Editors/2019.4.11f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
     <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.ptc.vuforia.engine@9.4.6/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+      <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.ptc.vuforia.engine@9.5.4/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions.Editor">
-      <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.ptc.vuforia.engine@9.4.6/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
+      <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.ptc.vuforia.engine@9.5.4/Vuforia/Plugins/Managed/Editor/Vuforia.UnityExtensions.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
@@ -276,9 +279,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>

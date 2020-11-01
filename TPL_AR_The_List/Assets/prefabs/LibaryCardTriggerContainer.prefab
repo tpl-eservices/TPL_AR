@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2455415275569167494}
   - component: {fileID: 2455415275569167495}
   - component: {fileID: 2455415275569167512}
+  - component: {fileID: 1842507865138701473}
   m_Layer: 5
   m_Name: branchesBtnIconTrigger
   m_TagString: Untagged
@@ -120,7 +121,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2455415275569167512}
-        m_MethodName: openLink
+        m_MethodName: OpenLink
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -142,6 +143,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c832a6d24bbd48bc1c20a71f05a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1842507865138701473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2455415275569167514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4cb9272e83241c3baa6701197ba0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
 --- !u!1 &2455415275574135016
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,6 +169,7 @@ GameObject:
   - component: {fileID: 2455415275574134996}
   - component: {fileID: 2455415275574134997}
   - component: {fileID: 2455415275574134998}
+  - component: {fileID: 6175222708581860028}
   m_Layer: 5
   m_Name: accountBtnIconTrigger
   m_TagString: Untagged
@@ -262,7 +277,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2455415275574134998}
-        m_MethodName: openLink
+        m_MethodName: OpenLink
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -284,6 +299,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c832a6d24bbd48bc1c20a71f05a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6175222708581860028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2455415275574135016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4cb9272e83241c3baa6701197ba0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
 --- !u!1 &2455415275648677876
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,6 +325,7 @@ GameObject:
   - component: {fileID: 2455415275648677872}
   - component: {fileID: 2455415275648677873}
   - component: {fileID: 2455415275648677874}
+  - component: {fileID: 3619020482440680859}
   m_Layer: 5
   m_Name: homeBtnIconTrigger
   m_TagString: Untagged
@@ -404,7 +433,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2455415275648677874}
-        m_MethodName: openLink
+        m_MethodName: OpenLink
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -426,6 +455,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c832a6d24bbd48bc1c20a71f05a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3619020482440680859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2455415275648677876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4cb9272e83241c3baa6701197ba0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
 --- !u!1 &2455415276516944929
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,6 +481,7 @@ GameObject:
   - component: {fileID: 2455415276516944941}
   - component: {fileID: 2455415276516944942}
   - component: {fileID: 2455415276516944943}
+  - component: {fileID: 3907380826116994530}
   m_Layer: 5
   m_Name: listBtnIconTrigger
   m_TagString: Untagged
@@ -546,7 +589,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2455415276516944943}
-        m_MethodName: openLink
+        m_MethodName: OpenLink
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -568,6 +611,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c832a6d24bbd48bc1c20a71f05a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3907380826116994530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2455415276516944929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4cb9272e83241c3baa6701197ba0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
 --- !u!1 &2455415276781164035
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +740,7 @@ GameObject:
   - component: {fileID: 2455415277108386949}
   - component: {fileID: 2455415277108386950}
   - component: {fileID: 2455415277108386951}
+  - component: {fileID: 1331776012216149467}
   m_Layer: 5
   m_Name: programsBtnIconTrigger
   m_TagString: Untagged
@@ -791,7 +848,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2455415277108386951}
-        m_MethodName: openLink
+        m_MethodName: OpenLink
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -813,3 +870,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a0c832a6d24bbd48bc1c20a71f05a1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1331776012216149467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2455415277108386969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce4cb9272e83241c3baa6701197ba0d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}

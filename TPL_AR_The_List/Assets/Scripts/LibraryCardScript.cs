@@ -23,7 +23,7 @@ public class LibraryCardScript : MonoBehaviour
                     Application.OpenURL("https://www.torontopubliclibrary.ca/branches/");
                     break;
                 case "listBtnIconTrigger":
-                    Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp?year=2019#list-container");
+                    Application.OpenURL("https://www.torontopubliclibrary.ca/teens/the-list.jsp");
                     break;
                 case "agincourtBtnIconTrigger":
                     Application.OpenURL("https://www.torontopubliclibrary.ca/agincourt/");

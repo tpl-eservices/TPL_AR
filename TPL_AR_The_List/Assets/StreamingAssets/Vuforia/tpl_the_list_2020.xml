@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="the-list-2020-1" size="0.139700 0.215900" />
+    <ImageTarget name="the-list-2020-16" size="0.139700 0.215900" />
+    <ImageTarget name="the-list-2020-15" size="0.139700 0.215900" />
+    <ImageTarget name="the-list-2020-14" size="0.139700 0.215900" />
+    <ImageTarget name="the-list-2020-2" size="0.139700 0.215900" />
+    <ImageTarget name="the-list-2020-13" size="0.139700 0.215900" />
+    <ImageTarget name="the-list-2020-12-top" size="0.139700 0.092964" />
+    <ImageTarget name="the-list-2020-12-bottom" size="0.139700 0.115231" />
+    <ImageTarget name="the-list-2020-11-top" size="0.139700 0.092964" />
+    <ImageTarget name="the-list-2020-11-bottom" size="0.139700 0.115231" />
+    <ImageTarget name="the-list-2020-10-top" size="0.139700 0.092964" />
+    <ImageTarget name="the-list-2020-10-bottom" size="0.139700 0.115231" />
+    <ImageTarget name="the-list-2020-9-top" size="0.139700 0.092964" />
+    <ImageTarget name="the-list-2020-9-bottom" size="0.139700 0.115231" />
+    <ImageTarget name="the-list-2020-8-top" size="0.139700 0.092964" />
+    <ImageTarget name="the-list-2020-8-bottom" size="0.139700 0.115231" />
+    <ImageTarget name="the-list-2020-7-top" size="0.139700 0.092964" />
+    <ImageTarget name="the-list-2020-7-bottom" size="0.139700 0.115231" />
+    <ImageTarget name="the-list-2020-6-top" size="0.139700 0.092964" />
+    <ImageTarget name="the-list-2020-6-bottom" size="0.139700 0.115231" />
+    <ImageTarget name="the-list-2020-5-top" size="0.139700 0.094065" />
+    <ImageTarget name="the-list-2020-5-bottom" size="0.139700 0.115993" />
+    <ImageTarget name="the-list-2020-4-top" size="0.139700 0.094065" />
+    <ImageTarget name="the-list-2020-4-bottom" size="0.139700 0.115316" />
+    <ImageTarget name="the-list-2020-3-top" size="0.139700 0.096351" />
+    <ImageTarget name="the-list-2020-3-bottom" size="0.139700 0.109559" />
+  </Tracking>
+</QCARConfig>

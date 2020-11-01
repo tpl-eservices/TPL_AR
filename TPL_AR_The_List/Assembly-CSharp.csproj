@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AlwaysFaceCamera.cs" />
     <Compile Include="Assets\Scripts\BookLinkScript.cs" />
     <Compile Include="Assets\Scripts\CameraFocusController.cs" />
     <Compile Include="Assets\Scripts\ExitScript.cs" />
@@ -70,7 +71,9 @@
     <Compile Include="Assets\Scripts\OpenLinkScript.cs" />
     <Compile Include="Assets\Scripts\ToggleInfoPanel.cs" />
     <Compile Include="Assets\Scripts\VideoStreamingScript.cs" />
+    <Compile Include="Assets\VideoController.cs" />
     <None Include="Assets\StreamingAssets\Vuforia\tpl_vumark.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\tpl_the_list_2020.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\Models\MonsterGroup1\WarChimera\readMe.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\TPL_AR.xml" />
@@ -252,7 +255,7 @@
       <HintPath>/Volumes/Mehrad 1/Unity Editors/2019.4.11f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Vuforia.UnityExtensions">
-      <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.ptc.vuforia.engine@9.4.6/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+      <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.ptc.vuforia.engine@9.5.4/Vuforia/Plugins/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/Users/mehrad/Workspace/Projects/TPL_AR/TPL_AR_The_List/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
