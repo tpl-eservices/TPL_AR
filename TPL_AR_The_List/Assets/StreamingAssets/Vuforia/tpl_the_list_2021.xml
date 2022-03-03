@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="the-list-2021-8-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-8-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-7-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-7-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-6-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-6-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-6-2-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-6-2-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-5-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-5-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-5-2-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-5-2-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-4-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-4-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-4-2-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-4-2-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-3-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-3-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-3-2-bottom" size="0.139500 0.119087" />
+    <ImageTarget name="the-list-2021-3-2-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-2-top" size="0.139500 0.096922" />
+    <ImageTarget name="the-list-2021-2-bottom" size="0.139500 0.119087" />
+  </Tracking>
+</QCARConfig>

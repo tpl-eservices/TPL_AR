@@ -1286,9 +1286,9 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1000012772632390}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 38521eec3f10c2c44b1e187c16d3f063, type: 3}
-  m_Controller: {fileID: 9100000, guid: ded5c40f5c580f447ad741d0cb7944d6, type: 2}
-  m_CullingMode: 1
+  m_Avatar: {fileID: 9000000, guid: 7f8b1d184def89e4388fcf1a4270cddc, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
@@ -1306,9 +1306,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 1
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &1000012853157600
 GameObject:
@@ -2039,6 +2039,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2050,6 +2051,7 @@ SkinnedMeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2066,7 +2068,7 @@ SkinnedMeshRenderer:
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
   m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: 4300000, guid: 38521eec3f10c2c44b1e187c16d3f063, type: 3}
+  m_Mesh: {fileID: 4300000, guid: a1932545801f1e34da128b2c511da569, type: 3}
   m_Bones:
   - {fileID: 4000013240667650}
   - {fileID: 4000011695177082}
